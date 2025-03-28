@@ -1,0 +1,14 @@
+[package]
+name = "sql-macros"
+version = "0.1.1"
+edition = "2024"
+categories = ["database"]
+description = "Auto generate sql queries for CRUD on sqlx"
+keywords = ["sql", "postgres", "sqlx"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Cheban1996/sql-macros"
+readme = "../README.md"
+
+[dependencies]
+sql-macros-core = { version = "0.1.0", path = "../sql-macros-core" }
+sql-macros-derive = { version = "0.1.1", path = "../sql-macros-derive" }

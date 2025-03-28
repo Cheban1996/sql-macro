@@ -1,0 +1,4 @@
+[workspace]
+default-members = ["sql-macros"]
+members = ["sql-macros", "sql-macros-core", "sql-macros-derive"]
+resolver = "2"
